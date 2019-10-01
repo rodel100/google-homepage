@@ -2,6 +2,10 @@
   Display: inline;
 }
 
+Body a:hover{
+    text-decoration: underline;
+}
+
 body a{
     color: black;
     text-decoration: none;
