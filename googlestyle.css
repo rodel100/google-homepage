@@ -1,33 +1,43 @@
-header  {
-    width:100%;
-
+#header  {
+  Display: inline;
 }
 
-header a:link{
-    color:black;
-    font: 16px "Times New Roman";
+body a{
+    color: black;
     text-decoration: none;
+    font-family: arial;
+    display:inline;
 }
-header a:link:visited{
-    color:black;
+
+ul{
+    list-style-type: none;
+    margin 0;
+    padding 0;
+    display:inline;
 }
-.Gmail, .Images{
-  position: relative;
-  float: right;
-  padding-left: 10px;
+
+header li a{
+    text-decoration: none;
+    top: 0;
+    padding: 8x;
+    float: left;
+    padding: 0 10px;
 }
 
 body section{
-    margin: 0 auto;
-    width: 50%;
-    border: 0px;
+    margin: 10% auto;
+    width: 40%;
+    
     
 }
 .searchbar{
     display: block;
     position: relative;
-    width: 80%;
-
+    width: 545px;
+    margin-right: 50%;
+    border-radius: 24px;
+    border: 1px solid # dfe1e5;    
+    height: 30px;
 }
 .buttons{
     display: inline;
@@ -43,16 +53,22 @@ footer{
     background-color: #f2f2f2;
     width: 100%;
     line-height: 50px;
+    padding: 0;
     
+
 }
-footer a:link:visited{
-    color:black;
-    Background:black;
+.button{
+    border: 0 10px;
+    border-color: transparent;
+    float:right;
+}
+footer a:link:{
+    padding: 30px;
 }
 
 .country{
     display:block;
 }
 #buttons{
-    margin-left: 20%;
+    margin-left: 30%;
 }
